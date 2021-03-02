@@ -1,0 +1,30 @@
+{
+  "name": "capproject",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^3.34.2",
+    "@sap/hana-client": "^2.4.196",
+    "express": "^4.17.1",
+    "hdb": "^0.18.2"
+  },
+  "devDependencies": {
+    "@sap/cds": "^3.34.2",
+    "@sap/hana-client": "^2.4.196",
+    "@sap/hdi-deploy": "3.11.15",
+    "@sap/ux-specification": "^1.84.4",
+    "express": "^4.17.1",
+    "sqlite3": "5.0.0"
+  },
+  "scripts": {
+    "build": "cds build",
+    "deploy": "cds deploy",
+    "start": "cds run"
+  },
+  "sapux": [
+    "app/fiori"
+  ]
+}
